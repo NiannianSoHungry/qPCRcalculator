@@ -15,14 +15,16 @@ qPCRcalculator::run_app()
 
 ## 赞助作者
 
-<table align="center"><tr>
-  <td><a href="https://afdian.net/a/momomoshan"><img src="./img/aifadian.png" width="128px" height="128px"></a></td>
-  <td><a href="https://space.bilibili.com/501417427/"><img src="./img/bilibili.png" width="128px" height="128px"></a></td>
+<table>
+  <tr align="center">
+    <td><a href="https://afdian.net/a/momomoshan"><img src="./img/aifadian.png" width="128px" height="128px"></a></td>
+    <td><a href="https://space.bilibili.com/501417427/"><img src="./img/bilibili.png" width="128px" height="128px"></a></td>
   </tr>
-  <tr>
+  <tr align="center">
     <td><a href="https://afdian.net/a/momomoshan">爱发电</a></td>
     <td><a href="https://space.bilibili.com/501417427" style="text-decoration:none; color:black">哔哩哔哩</a></td>
-  </tr></table>
+  </tr>
+</table>
 
 ## 运行界面
 
