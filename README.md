@@ -1,2 +1,7 @@
 # qPCRcalculator
-A Shiny app for qPCR calculating and plotting
+一个通过 Shiny 编写的 qPCR 计算器，可以进行基础的绘图和统计检验。
+需要搭载在 R 语言环境下运行
+
+## 下一步计划
+[] 添加更多画图主题
+[] 打包成桌面版
