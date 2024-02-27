@@ -15,6 +15,10 @@ qPCRcalculator::run_app()
 
 ## 赞助作者
 
+粘粘老师会很努力创作各种学习方法视频和实用小工具给大家带来便利，也感谢大家对粘粘老师工作的支持和鼓励！
+
+相逢即是缘分，给辛苦的粘粘老师买两支猫条改善一下伙食吧！
+
 <table>
   <tr align="center">
     <td><a href="https://afdian.net/a/momomoshan"><img src="./img/aifadian.png" width="128px" height="128px"></a></td>
