@@ -9,6 +9,8 @@
 ```R
 if(!require(devtools)){install.packages("devtools")}
 devtools::install_github("NiannianSoHungry/qPCRcalculator")
+
+qPCRcalculator::run_app()
 ```
 
 ## 赞助作者
@@ -52,5 +54,3 @@ devtools::install_github("NiannianSoHungry/qPCRcalculator")
   
   
   
-
-
