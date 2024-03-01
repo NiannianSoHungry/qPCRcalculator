@@ -136,6 +136,9 @@ myPlot <- function(dataOut, test, group, ctrl, gene, pvalue, styleComparisonLine
         themes[theme] +
         theme(
             plot.title = element_text(hjust = 0.5, face = "bold", size = 12)
+        ) +
+        guides(
+            fill = guide_legend(title = xlab)
         )
     return(p)
 }
@@ -184,8 +187,10 @@ app_server <- function(input, output, session) {
         updateTextInput(session, inputId = "xlab", value = input$group)
     })
     observeEvent(input$gene, {
-        updateTextInput(session, inputId = "title", value = input$gene)
         updateSelectInput(session, inputId = "int", choices = unique(dataIn()[, input$gene]))
+    })
+    observeEvent(input$geneShow, {
+        updateTextInput(session, inputId = "title", value = input$geneShow)
     })
     observeEvent(input$int, {
         updateSelectInput(session, inputId = "geneShow", choices = setdiff(unique(dataIn()[, input$gene]), input$int))
